@@ -1,0 +1,453 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/xs0HdQ2/image.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Python Programming for Beginners",
+      "instructor": "Alice Smith",
+      "description": "A beginner-friendly course to learn Python programming from scratch.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/NWCCwvd/image.png",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:30 PM - 7:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic Programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Python",
+          "content": "Setting up Python, basic syntax, and data types."
+        },
+        {
+          "week": 2,
+          "topic": "Control Structures",
+          "content": "Conditional statements and loops in Python."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Web Development with JavaScript",
+      "instructor": "Ella Johnson",
+      "description": "Learn web development using HTML, CSS, and JavaScript.",
+      "enrollmentStatus": "In Progress",
+      "thumbnail": "https://i.ibb.co/NrBfYGy/image.png",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic knowledge of HTML and CSS"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML",
+          "content": "HTML structure and basic tags."
+        },
+        {
+          "week": 2,
+          "topic": "Styling with CSS",
+          "content": "CSS selectors, properties, and styling web pages."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "C++ Programming for Beginners",
+      "instructor": "Joe Smith",
+      "description": "A beginner-friendly course to learn C++ programming from scratch.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/K7YN2JJ/image.png",
+      "duration": "7 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic Programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to C++",
+          "content": "Setting up C++, basic syntax, and data types."
+        },
+        {
+          "week": 2,
+          "topic": "Data Structures",
+          "content": "Introduction data types in C++"
+        },
+        {
+          "week": 3,
+          "topic": "Control Structures",
+          "content": "Conditional statements and loops in C++."
+        },
+        {
+          "week": 4,
+          "topic": "Arrays and Objects",
+          "content": "Introduction to arrays and objects in C++"
+        },
+        {
+          "week": 5,
+          "topic": "Memory Management",
+          "content": "Introduction to Calloc and Malloac in C++"
+        },
+        {
+          "week": 6,
+          "topic": "Object-Oriented Programming",
+          "content": "Introduction to Object-Oriented Programming in C++"
+        },
+        {
+          "week": 7,
+          "topic": "Inheritence and polymorphism",
+          "content": "How to implement inheritence and polymorphism in C++."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "C Programming Fundamentals",
+      "instructor": "John Miller",
+      "description": "Master the basics of the C programming language and build a strong foundation in coding.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/0QTGkcP/image.png",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["No prior programming experience required"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to C",
+          "content": "Understanding the C programming language, its history, and setting up a development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Data Types and Variables",
+          "content": "Working with data types, variables, and basic input/output in C."
+        },
+        {
+          "week": 3,
+          "topic": "Control Structures",
+          "content": "Learning about conditional statements, loops, and control structures in C."
+        },
+        {
+          "week": 4,
+          "topic": "Arrays and Functions",
+          "content": "Working with arrays and creating functions in C."
+        },
+        {
+          "week": 5,
+          "topic": "Pointers and Memory Management",
+          "content": "Understanding pointers and memory management in C."
+        },
+        {
+          "week": 6,
+          "topic": "File Handling and Final Project",
+          "content": "Working with files, and completing a final project to apply your knowledge."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MySQL Database Management",
+      "instructor": "Sarah Davis",
+      "description": "Learn the fundamentals of MySQL database management and SQL querying.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/6ypf7xS/image.png",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic understanding of databases"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Databases",
+          "content": "Understanding databases, DBMS, and MySQL."
+        },
+        {
+          "week": 2,
+          "topic": "SQL Basics",
+          "content": "Learning SQL syntax, creating databases, and tables."
+        },
+        {
+          "week": 3,
+          "topic": "Data Manipulation",
+          "content": "Inserting, updating, and deleting data in MySQL."
+        },
+        {
+          "week": 4,
+          "topic": "Querying Data",
+          "content": "Writing SELECT queries to retrieve data from tables."
+        },
+        {
+          "week": 5,
+          "topic": "Advanced SQL",
+          "content": "Using JOIN, GROUP BY, and subqueries for complex queries."
+        },
+        {
+          "week": 6,
+          "topic": "Data Modeling",
+          "content": "Designing and normalizing databases for efficient data storage."
+        },
+        {
+          "week": 7,
+          "topic": "Database Administration",
+          "content": "Managing users, permissions, and database maintenance."
+        },
+        {
+          "week": 8,
+          "topic": "Final Project",
+          "content": "Applying your knowledge by creating a functional database and queries."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Unreal Engine 5 Game Development",
+      "instructor": "Michael Roberts",
+      "description": "Unlock the power of Unreal Engine 5 and create immersive 3D games and simulations.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://i.ibb.co/7RqgWtG/image.png",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 5:30 PM - 7:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic understanding of game development concepts"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Unreal Engine 5",
+          "content": "Overview of Unreal Engine 5, installation, and the development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Creating Environments",
+          "content": "Building 3D environments, landscapes, and terrains."
+        },
+        {
+          "week": 3,
+          "topic": "Character Design and Animation",
+          "content": "Creating characters, animations, and rigging."
+        },
+        {
+          "week": 4,
+          "topic": "Game Mechanics",
+          "content": "Implementing game mechanics, player controls, and interactions."
+        },
+        {
+          "week": 5,
+          "topic": "Visual Effects and Shaders",
+          "content": "Adding visual effects, shaders, and post-processing to enhance the game's visuals."
+        },
+        {
+          "week": 6,
+          "topic": "Sound and Music",
+          "content": "Integrating sound effects and music into the game for a more immersive experience."
+        },
+        {
+          "week": 7,
+          "topic": "AI and Pathfinding",
+          "content": "Creating AI behavior and pathfinding for non-player characters."
+        },
+        {
+          "week": 8,
+          "topic": "Multiplayer and Networking",
+          "content": "Implementing multiplayer features and networked gameplay."
+        },
+        {
+          "week": 9,
+          "topic": "Optimization and Performance",
+          "content": "Optimizing the game for better performance and user experience."
+        },
+        {
+          "week": 10,
+          "topic": "Publishing and Distribution",
+          "content": "Preparing and publishing your game for various platforms."
+        },
+        {
+          "week": 11,
+          "topic": "Game Testing and Quality Assurance",
+          "content": "Testing and ensuring the quality of your game."
+        },
+        {
+          "week": 12,
+          "topic": "Final Project Showcase",
+          "content": "Showcasing your completed game project to peers and potential employers."
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "S456789",
+      "avatar": "https://i.ibb.co/LvG4r9f/image.png",
+      "full_name": "Rahul Verma",
+      "date_of_birth": "10-05-1998",
+      "gender": "Male",
+      "address": "456 Blossom Road, Mumbai, India",
+      "email": "rahul.verma@gmail.com",
+      "phone": "+91 555-555-1111",
+      "major": "Engineering",
+      "gpa": 3.9,
+      "enrollment_status": "Full-time",
+      "enrolled_courses": [
+        {
+          "id": 1,
+          "name": "Introduction to React Native",
+          "instructor": "John Doe",
+          "description": "Learn the basics of React Native development and build your first mobile app.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "https://i.ibb.co/xs0HdQ2/image.png",
+          "duration": "6 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "due": "23-11-2023",
+          "location": "Online",
+          "prerequisites": [
+            "Basic JavaScript knowledge",
+            "Familiarity with React"
+          ],
+          "progress": 48,
+          "completed": false,
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to React Native",
+              "content": "Overview of React Native, setting up your development environment."
+            },
+            {
+              "week": 2,
+              "topic": "Building Your First App",
+              "content": "Creating a simple mobile app using React Native components."
+            },
+            {
+              "week": 3,
+              "topic": "Introduction to Expo",
+              "content": "Setup the work environment using Expo-cli."
+            },
+            {
+              "week": 4,
+              "topic": "Introduction to Styled-components",
+              "content": "Learn how to use styled-components to style your app."
+            },
+            {
+              "week": 5,
+              "topic": "Make mobile app : Build pizza delivery app",
+              "content": "Create your first mobile app."
+            },
+            {
+              "week": 6,
+              "topic": "Export the App",
+              "content": "Learn how to convert your app to apk and export it."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Introduction to Front-end developement",
+          "instructor": "John Willamson",
+          "description": "Learn the basics of HTML,Css,Javascript and build your first website.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "https://i.ibb.co/NrBfYGy/image.png",
+          "duration": "4 weeks",
+          "schedule": "Mondays and Thursdays, 6:00 PM - 8:00 PM",
+          "due": "30-11-2023",
+          "location": "Online",
+          "progress": 72,
+          "completed": false,
+          "prerequisites": [],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to World wide web and HTML",
+              "content": "Overview of www, learning about internet."
+            },
+            {
+              "week": 2,
+              "topic": "Introduction to Css",
+              "content": "Learn how to apply styles to your webpage."
+            },
+            {
+              "week": 3,
+              "topic": "Introduction to Javascript",
+              "content": "Overview of Javascript, and other features"
+            },
+            {
+              "week": 4,
+              "topic": "Create your first website",
+              "content": "Creating a simple website using HTML,Css,Javascript."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S567890",
+      "avatar": "https://i.ibb.co/CQLspmT/image.png",
+      "full_name": "Aisha Khan",
+      "date_of_birth": "25-12-2002",
+      "gender": "Female",
+      "address": "789 Palm Avenue, Delhi, India",
+      "email": "aisha.khan@gmail.com",
+      "phone": "+91 555-555-2222",
+      "major": "Medicine",
+      "gpa": 3.7,
+      "enrollment_status": "Full-time"
+    },
+    {
+      "id": "S678901",
+      "avatar": "https://i.ibb.co/QJCdWyc/download-1.jpg",
+      "full_name": "Vikram Singh",
+      "date_of_birth": "02-09-2001",
+      "gender": "Male",
+      "address": "1122 River Road, Bangalore, India",
+      "email": "vikram.singh@gmail.com",
+      "phone": "+91 555-555-3333",
+      "major": "Economics",
+      "gpa": 3.5,
+      "enrollment_status": "Part-time"
+    },
+    {
+      "id": "S789012",
+      "avatar": "https://i.ibb.co/Pw8RNTk/image.png",
+      "full_name": "Priya Patel",
+      "date_of_birth": "18-07-1997",
+      "gender": "Female",
+      "address": "45 Jasmine Lane, Chennai, India",
+      "email": "priya.patel@gmail.com",
+      "phone": "+91 555-555-4444",
+      "major": "Political Science",
+      "gpa": 3.8,
+      "enrollment_status": "Full-time"
+    },
+    {
+      "id": "S890123",
+      "avatar": "https://i.ibb.co/6g2wMQQ/image.png",
+      "full_name": "Rajesh Tiwari",
+      "date_of_birth": "30-03-1996",
+      "gender": "Male",
+      "address": "678 Lotus Street, Hyderabad, India",
+      "email": "rajesh.tiwari@gmail.com",
+      "phone": "+91 555-555-5555",
+      "major": "Physics",
+      "gpa": 3.2,
+      "enrollment_status": "Part-time"
+    }
+  ]
+}
