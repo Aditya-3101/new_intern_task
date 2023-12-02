@@ -426,12 +426,8 @@ progress::-webkit-progress-value {
   }
 
   .dashBoard-container {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-gap: 0;
-    grid-template-areas:
-      "sideBar"
-      "Maincontent";
+    display: flex;
+    flex-direction: column;
   }
 
   .user-courses {
@@ -491,10 +487,6 @@ progress::-webkit-progress-value {
     padding-left: 0px;
     display: flex;
     align-items: center;
-  }
-
-  .maincontent-container {
-    margin-top: -5rem;
   }
 
   .courses-container {

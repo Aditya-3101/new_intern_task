@@ -12,8 +12,8 @@ export const CourseDetails = () => {
     fetchData();
   }, []);
 
-  const fetchData = async () => {
-    fetch(`http://localhost:4000/courses/${id}`)
+  const fetchData = () => {
+    fetch(`https://serve-ix6g.onrender.com/courses/${id}`)
       .then((res) => res.json())
       .then((response) => {
         setData(response);
